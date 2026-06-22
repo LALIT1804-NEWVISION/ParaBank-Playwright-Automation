@@ -44,19 +44,30 @@ The framework is designed with reusable components, maintainable page classes, t
 # 🏗️ Framework Architecture
 
 ```
-                 Test Cases
-                     |
-                     ↓
-              Action Layer
-                     |
-                     ↓
-              Page Objects
-                     |
-                     ↓
-            Playwright Engine
-                     |
-                     ↓
-             ParaBank Website
+                  🧪 Test Cases
+                         |
+                         |
+                         ↓
+                ⚙️ Test Execution Layer
+                         |
+                         |
+                         ↓
+                 🔄 Action Layer
+          (Business Logic & Reusable Actions)
+                         |
+                         |
+                         ↓
+                 📄 Page Object Layer
+          (Locators & Page Specific Methods)
+                         |
+                         |
+                         ↓
+              🎭 Playwright Automation Engine
+          (Browser Control & Automation APIs)
+                         |
+                         |
+                         ↓
+              🏦 ParaBank Web Application
 ```
 
 ---
